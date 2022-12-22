@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bentoctl = "==0.3.4"
+bentoml = "==1.0.12"
+datasets = "==2.8.0"
+scikit-learn = "==1.2.0"
+torch = "==1.13.1"
+transformers = "==4.25.1"
+
+[dev-packages]
+evaluate = "==0.4.0"
+tqdm = "==4.64.1"
+
+[requires]
+python_version = "3.9"

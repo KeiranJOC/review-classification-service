@@ -1,0 +1,10 @@
+service: "service.py:svc"
+labels:
+  owner: Keiran
+  project: NPS comment classification service
+include:
+- "*.py"
+python:
+  packages:
+    - transformers
+    - torch
