@@ -1,5 +1,8 @@
-# nps-comment-classification-service
+# review-classification-service
 
+This project was inspired by dealing with responses to Net Promoter Score (NPS) surveys. In NPS surveys, customers are asked to give a score between 0-10 indicating how likely they are to recommend the product/service to others, where 0 = extremely unlikely and 10 = extremely likely. They are also asked to provide a comment on why they gave that score. Sometimes, customers give a low score while their comment suggests they were actually happy with the product/service. It would be useful to perform text classification on the comments to understand the true sentiment of the customer.
+
+I tried gradient boosting and transformer models to perform the text classification, and deployed the best model using serverless infrastructure. I didn't have access to an NPS response dataset, so I used an IMDB movie review dataset to train the models to predict whether a review is positive or negative.
 
 ### Setup
 1. Open a terminal window and `cd` into the project directory.
