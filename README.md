@@ -33,7 +33,7 @@ This section assumes you have:
 8. Finally, run `bentoctl destroy -f deployment_config.yaml` to destroy the AWS infrastructure you just created.
 
 The screenshot below illustrates sending a positive review as input to the endpoint, and receiving a classification (LABEL_1 = positive) and probability score:
-![Image](review-classifier-service_positive.png)
+![Image](images/review-classifier-service_positive.png)
 
 The screenshot below illustrates sending a negative review as input to the endpoint, and receiving a classification (LABEL_0 = negative) and probability score:
-![Image](review-classifier-service_negative.png)
+![Image](images/review-classifier-service_negative.png)
